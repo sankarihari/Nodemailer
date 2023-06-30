@@ -2,7 +2,7 @@ const nodeMailer = require('nodemailer');
 
 const html=`
       <h1>Hi friend</h1>
-      <p> Testing nodemailer</p>
+      <p> I hope u are fine. i am sending this mail to just test my nodemailer app.</p>
 
 `;
 
@@ -14,7 +14,7 @@ async function main(){
         secure: true,
         auth:{
             user:'testictmern@gmail.com',
-            pass: '2277345Hh*'
+            pass: 'frxgmjfabydsncvz'
         }
     });
 
